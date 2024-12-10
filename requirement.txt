@@ -1,0 +1,13 @@
+elasticsearch_dsl
+pandas
+numpy
+transformers
+text2vec
+elasticsearch
+warnings
+time
+pickle
+tqdm
+re
+pdfplumber
+os

@@ -1,6 +1,5 @@
 #读取pkl数据写入es数据库中，需要指定pkl的路径
 import os
-import pdfplumber
 import pandas as pd
 import re
 import transformers

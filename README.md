@@ -1,3 +1,13 @@
+本方法是构建在python3.9.20上的，因此你需要创建一个python3.9.20的环境
+
+下载的pytorch的版本是2.5.0+cu118
+
+```shell
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0  pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+而后请按照requirement.txt进行下载
+
 # es实现RAG
 
 ## es配置
@@ -34,7 +44,7 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.4-l
 
 ## Kibana配置
 
-![img_v3_02g5_792db646-79b8-4e8b-bfd6-38723179927g](/home/PJLAB/sijiaheng/.config/LarkShell/sdk_storage/f8b32a112618729d8f0d832858a9931b/resources/images/img_v3_02g5_792db646-79b8-4e8b-bfd6-38723179927g.jpg)
+![img_v3_02g5_792db646-79b8-4e8b-bfd6-38723179927g_MIDDLE](./img_v3_02g5_792db646-79b8-4e8b-bfd6-38723179927g_MIDDLE.webp)
 
 需要注意的是，要在官网上下载相同版本的kibana，而后修改kibana的配置文件，kibana.yml，如上所示。
 
@@ -48,7 +58,7 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.4-l
 
 主要的代码包括以下五个：
 
-![image-20241106152232697](/home/PJLAB/sijiaheng/.config/Typora/typora-user-images/image-20241106152232697.png)
+![image-20241106152232697](./image-20241106152232697.png)
 
 另外需要注意，还有一个pdf文件保存路径，这里指定的路径为
 
