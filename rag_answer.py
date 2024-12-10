@@ -46,8 +46,8 @@ def GetBaiduAi(question, model_url, APIKey, SecretKey):
 ############################
 
 # if __name__ =="__main__":
-#     APIKey = 'nDRbNrssYTcZh92gXgpdWEK0'  
-#     SecretKey = 'zrIMR5sWOnLYDQ1w7vRJqRi0jH6XLIrP'  
+#     APIKey = ''  
+#     SecretKey = ''  
 #     model_url = 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-lite-8k' 
 #     query = '如何通过人工智能推动地区的经济发展？'
 #     top_k = 5
@@ -74,8 +74,8 @@ def GetBaiduAi(question, model_url, APIKey, SecretKey):
 
 ###下面是不使用rag的
 if __name__ =="__main__":
-    APIKey = 'nDRbNrssYTcZh92gXgpdWEK0'  
-    SecretKey = 'zrIMR5sWOnLYDQ1w7vRJqRi0jH6XLIrP'  
+    APIKey = ''#请填写你的apikey等等  
+    SecretKey = ''  
     model_url = 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-lite-8k' 
     query = '如何通过人工智能推动地区的经济发展？'
 
